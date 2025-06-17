@@ -32,7 +32,7 @@ section{
     display: flex;
     gap: 10%;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-bottom: 20px;
     margin-top: 30px;
 }
@@ -40,6 +40,12 @@ section{
 .img-carnesInicio img{
     max-width: 30%;
     border-radius: 10px;
+}
+.nav-botoes{
+    display: flex;
+    flex: nowrap;
+    justify-content: center;
+    gap: 10px;
 }
 .nav-botoes a {
     background-color: #e67e22;
@@ -53,6 +59,7 @@ section{
 .nav-botoes a:hover{
     background-color: #d35400;
 }
+
 footer{
     background-color: #8B0000;
     padding: 10px;
@@ -66,6 +73,17 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 10px;
+}
+
+
+.lista-fogo li{
+    font-size: 1.2em;
+}
+.lista-fogo{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    gap: 20px;
 }
