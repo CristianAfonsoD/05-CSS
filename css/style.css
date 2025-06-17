@@ -20,7 +20,12 @@ header{
         text-decoration:none;
     }
 }
+.logo{
+    height: 80px;
+    width: auto;
+    border-radius: 8px;
 
+}
 section{
     max-width: 900px;
     margin: 30px auto;
