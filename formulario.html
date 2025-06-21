@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Envie sua Dica</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,5 +25,39 @@
             <a href="formulario.html">Envie suas Dicas</a>
         </nav>
     </header>
+    <section class="formulario-dica">
+        <h2>Compartilhe sua Dica de Churrasco</h2>
+        <form action="#" method="post">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Seu e-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tipo">Tipo de dica:</label>
+            <select id="tipo" name="tipo">
+                <option value="carne">Corte de carne</option>
+                <option value="fogo">Como acender o fogo</option>
+                <option value="regras">Etiqueta no churrasco</option>
+                <option value="acompanhamento">Acompanhamentos</option>
+                <option value="outra">Outra</option>
+            </select>
+
+            <label for="dica">Escreva sua dica:</label>
+            <textarea id="dica" name="dica" rows="5" required></textarea>
+
+            <label>
+                <input type="checkbox" name="aceita"> Aceito que minha dica seja publicada no site
+            </label>
+
+            <input type="submit" value="Enviar Dica">
+        </form>
+    </section>
+    <footer>
+        <div class="rodape-flex">
+            <p>Escrito por Cristian • 2025</p>
+            <p><a href="https://www.instagram.com/afonso_cristian/">Instagram</a></p>
+        </div>    
+    </footer>
 </body>
 </html>
